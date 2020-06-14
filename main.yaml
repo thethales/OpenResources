@@ -1,0 +1,54 @@
+# Main File
+# The ideia and file structure is still in development
+# Sample
+
+Resources:
+- Resource:
+    Title: "Title of the resource"
+    Language:
+      - PT-BR
+      - EN-US
+    SourceType:
+      - Collection
+      - SingleFile 
+    ResourceType:
+      - Audio
+      - Font
+      - Icon
+      - Image
+      - Movie
+      - Scientific Paper
+    Description: "Description of the resource"
+    Link: ""                                      #Resource Link
+    ArchivalLink: ""                              #Resource Archived Link Mirror if Avaliable
+    License:
+      - Creative Commons
+      - Unkown
+
+
+- Resource:
+    Title: "FontAwesome Icons"
+    Language:
+      - EN-US
+    SourceType:
+      - Collection
+    ResourceType:
+      - Icon
+      - Font
+    Description: "A site that holds free icons for commercial and personal use"
+    Link: "https://fontawesome.com/icons?d=gallery"
+    ArchivalLink: ""              
+
+- Resource:
+    Title: "Artigos Científicos da USP"
+    Language:
+      - PT-BR
+    SourceType:
+      - Collection
+    ResourceType:
+      - Scientific Paper
+    Description: "Coleção de Artigos Científicos da USP"
+    Link: "https://www5.usp.br/tag/artigos-cientificos/"
+    ArchivalLink: ""              
+
+ 
