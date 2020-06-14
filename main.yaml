@@ -25,7 +25,6 @@ Resources:
       - Creative Commons
       - Unkown
 
-
 - Resource:
     Title: "FontAwesome Icons"
     Language:
@@ -38,6 +37,7 @@ Resources:
     Description: "A site that holds free icons for commercial and personal use"
     Link: "https://fontawesome.com/icons?d=gallery"
     ArchivalLink: ""              
+
 
 - Resource:
     Title: "Artigos Científicos da USP"

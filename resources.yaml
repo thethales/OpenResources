@@ -1,0 +1,32 @@
+# Title: Resources Files
+# Description : Holds the info 
+# Note: The ideia and file structure is still in development
+# 
+
+- Resource:
+    Title: "FontAwesome Icons"
+    Language:
+      - EN-US
+    SourceType:
+      - Collection
+    ResourceType:
+      - Icon
+      - Font
+    Description: "A site that holds free icons for commercial and personal use"
+    Link: "https://fontawesome.com/icons?d=gallery"
+    ArchivalLink: ""              
+
+
+- Resource:
+    Title: "Artigos Científicos da USP"
+    Language:
+      - PT-BR
+    SourceType:
+      - Collection
+    ResourceType:
+      - Scientific Paper
+    Description: "Coleção de Artigos Científicos da USP"
+    Link: "https://www5.usp.br/tag/artigos-cientificos/"
+    ArchivalLink: ""              
+
+ 
