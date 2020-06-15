@@ -1,10 +1,32 @@
 <html>
-    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="src/css/style.min.css">
     <body>
-        <div class="nav-bar"></div>
-        <div id="app">
-
+        <div class="nav-bar">
+            <span>Open Resources</span>
         </div>
-        <script src="src/js/vue.js"></script>
+        <div id="app">
+       
+            <div class="search-wrapper">
+                <input type="text" v-model="search" placeholder="Search title.."/>
+                    <label>Search title:</label>
+              </div>
+              <div class="wrapper">
+                <div class="card" v-for="resource in filteredList">
+                    <a v-bind:href="resource.link" target="_blank">
+                        <img v-bind:src="resource.img" ref="thumb"/>
+                    </a>
+                    
+                    <a v-bind:href="resource.link">{{ resource.title }}</a>
+                    <small> {{ resource.desc }} </small>
+                  
+                </div>
+              </div>
+        </div>
+          </div> 
+        <script src="src/js/vue.min.js"></script>
+        <script src="src/js/axios.min.js"></script>
+        <script src="src/js/app.min.js"></script>
     </body>
 </html>

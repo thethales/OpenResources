@@ -12,4 +12,6 @@ Part  of finding great resources on the web relies on smart search of terms and 
 
 # Roadmap
 
-- Add a simple  web app with recursive search capability
+- Error Handling
+- Automatic site icon fetch
+- Case Insensitivity
