@@ -1,4 +1,4 @@
-# Useful KeyWords
+# Glossary & KeyWords
 
 A list of useful keywords for context search 
 
@@ -9,3 +9,5 @@ A list of useful keywords for context search
         - Description:
 - Development
     - Boilerplates
+
+

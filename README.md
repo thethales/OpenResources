@@ -31,9 +31,9 @@ As of now, a link resource is described as the first level on a bullet list and 
    - Img: _A link to a favicon or image, for ilustration purposes_
 ```
 
-## Tips
+## Tips &  Glossary
 
-Part  of finding great resources on the web relies on smart search of terms and hotwords, see [UsefulKeywords.md](UsefulKeywords.md)
+Part  of finding great resources on the web relies on smart search of terms and hotwords that sometimes are unique to the niche or areas, we are bulding said vocabulary here: see [glossary.md](glossary.md)
 
 ## Roadmap
 
