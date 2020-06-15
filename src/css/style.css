@@ -8,25 +8,21 @@ body {
   background: linear-gradient(-90deg, #84CF6A, #16C0B0);
   height: 60px;
   margin-bottom: 15px;
-  
+
 }
 
-.nav-bar span{
-  margin-left:60px;
+.nav-bar span {
+  margin-left: 60px;
   margin-top: 40px;
   font-size: 2rem;
   font-family: 'MuseoModerno', cursive;
 }
-
-
 
 .color-box {
   width: 40px;
   height: 40px;
   margin-top: 5px;
 }
-
-
 
 button {
   margin-top: 30px;
@@ -59,16 +55,26 @@ input {
 .search-wrapper {
   position: relative;
   width: 300px;
+ 
 }
 
-.search-wrapper label {
-  position: absolute;
-  font-size: 12px;
+.search-wrapper i{
+  display: inline-block;
+}
+
+.search-wrapper label{
+  display: none;
+}
+
+.search-wrapper i {
+  
+  font-size: 16px;
   color: rgba(0, 0, 0, 0.5);
   top: 8px;
   left: 12px;
   z-index: -1;
   transition: .15s all ease-in-out;
+
 }
 
 .search-wrapper input {
@@ -77,6 +83,8 @@ input {
   border: 1px solid rgba(0, 0, 0, 0.12);
   transition: .15s all ease-in-out;
   background: white;
+  display:inline-block;
+  width:80%;
 }
 
 .search-wrapper input:focus {
@@ -84,9 +92,9 @@ input {
   transform: scale(1.05);
 }
 
-.search-wrapper input:focus+label {
-  font-size: 10px;
-  transform: translateY(-24px) translateX(-12px);
+.search-wrapper input:focus+i {
+  font-size: 16px;
+  transform: translateY(+24px) translateX(+12px);
 }
 
 .search-wrapper input::-webkit-input-placeholder {
@@ -97,7 +105,7 @@ input {
 
 .wrapper {
   display: flex;
-  max-width: 80%;
+  max-width: 90%;
   flex-wrap: wrap;
   padding-top: 12px;
 }
@@ -105,9 +113,10 @@ input {
 .card {
   box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
   max-width: 250px;
-  margin: 12px;
+  margin: 8px;
+  margin-bottom: 0px;
   transition: .15s all ease-in-out;
-  padding:5px;
+  padding: 5px;
 }
 
 .card:hover {
@@ -153,3 +162,19 @@ input {
   height: 100px;
   border: 1px solid rgba(0, 0, 0, 0.12);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
