@@ -23,7 +23,7 @@ class Resource {
        let lines  =  content.split('\n'); 
        let el = {'item':[]};
        let k = 0;
-
+       console.log(content)
        //MarkDown File Parser Prototype, not optimized ... at all
        for( var i = 0 ; i< lines.length; i ++){
            if(lines[i].indexOf(itemH1) == 0){
@@ -72,8 +72,8 @@ class Resource {
       }
     },
     methods:{
-        selectedFile() {
-            const url = document.location.href + 'resources.md';
+        loadResources() {
+            const url = 'resources.md';
             this.$http.get(url)
             .then((result) => {
                 this.ResourceList = new ResourceCollection(result.data);
@@ -94,6 +94,6 @@ class Resource {
         
     },
     beforeMount(){
-        this.selectedFile();
+        this.loadResources();
     }
   })
