@@ -45,6 +45,17 @@
     - Type: Mockup
     - Area: Design
 
+- Vue Starter Templates
+    - Link: https://bootstrap-vue.org/docs/reference/starter-templates
+    - Description: Template for quick Vue Boostrap development
+    - Img: https://bootstrap-vue.org/_nuxt/icons/icon_120.67aef2.png
+    - Language: EN-US
+    - LongDescription: Get started quickly without the need for a build system, by using standard <script> and <link> tags to load the required JavaScript and CSS in your page.
+    - Type: Template
+    - Tags: Vue
+    - Area: Devlopment
+    - Why: 
+    
 - FavIcon Grabber
     - Link: http://favicongrabber.com/
     - Description: A tool for grabbing FavIcons from sites
@@ -53,6 +64,7 @@
     - LongDescription: 
     - Type: API
     - Area: Design, Devlopment
+
 
 
 

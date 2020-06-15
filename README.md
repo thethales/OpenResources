@@ -25,6 +25,7 @@ As of now, a link resource is described as the first level on a bullet list and 
 >   - Img: _A link to a favicon or image, for ilustration purposes_
 >   - Language: _The main language of the resource e.g.: PT-BR, EN-US_
 >   - LongDescription: _A long description of the item_
+>   - Tags: _Relevant Search Tags_
 >   - Type: _The type of the resource_
 >   - Area: _The area of the resource_
 >   - Why: _Why should one be interested in using it or for what would you use it for_
@@ -36,6 +37,7 @@ As of now, a link resource is described as the first level on a bullet list and 
    - Img:
    - Language: 
    - LongDescription: 
+   - Tags:
    - Type: 
    - Area: 
    - Why: 
@@ -48,7 +50,7 @@ Part  of finding great resources on the web relies on smart search of terms and 
 
 ## Roadmap
 
-- Layout Improvment
+- Layout Improvement
 - Error Handling
 - Side panel with more info regarding the selected link/tool
 - Automatic site icon fetch
