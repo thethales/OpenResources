@@ -1,33 +1,53 @@
-<html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Open Resources</title>
+
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="src/css/style.min.css">
-    <body>
-        <div class="nav-bar">
-            <span>Open Resources</span>
-            
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="src/css/style.min.css">
+  
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+
+    <!-- Load polyfills to support older browsers -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver"></script>
+    <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+    <script src="src/js/vue.min.js"></script>
+    <script src="src/js/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <span>Open Resources</span>
+
+    </div>
+    <div id="app">
+
+        <div class="search-wrapper">
+            <input type="text" v-model="search" placeholder="Search title.." />
+            <label>Search Resource:</label>
         </div>
-        <div id="app">
-       
-            <div class="search-wrapper">
-                <input type="text" v-model="search" placeholder="Search title.."/>
-                    <label>Search Resource:</label>
-              </div>
-              <div class="wrapper">
-                <div class="card" v-for="resource in filteredList">
-                    <a v-bind:href="resource.link" target="_blank">
-                        <img v-bind:src="resource.img" ref="thumb"/>
-                    </a>
-                    
-                    <a v-bind:href="resource.link">{{ resource.title }}</a>
-                    <small> {{ resource.desc }} </small>
-                  
-                </div>
-              </div>
+        <div class="wrapper">
+            <div class="card" v-for="resource in filteredList">
+                <a v-bind:href="resource.link" target="_blank">
+                    <img v-bind:src="resource.img" ref="thumb" />
+                </a>
+
+                <a v-bind:href="resource.link">{{ resource.title }}</a>
+                <small> {{ resource.desc }} </small>
+
+            </div>
         </div>
-          </div> 
-        <script src="src/js/vue.min.js"></script>
-        <script src="src/js/axios.min.js"></script>
-        <script src="src/js/app.min.js"></script>
-    </body>
+    </div>
+    </div>
+
+    <script src="src/js/app.min.js"></script>
+</body>
+
 </html>
