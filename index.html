@@ -5,12 +5,13 @@
     <body>
         <div class="nav-bar">
             <span>Open Resources</span>
+            <span>Sobre</span>
         </div>
         <div id="app">
        
             <div class="search-wrapper">
                 <input type="text" v-model="search" placeholder="Search title.."/>
-                    <label>Search title:</label>
+                    <label>Search Resource:</label>
               </div>
               <div class="wrapper">
                 <div class="card" v-for="resource in filteredList">

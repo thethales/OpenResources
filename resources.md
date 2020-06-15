@@ -3,6 +3,10 @@
     - Link: https://fonts.google.com/
     - Description: A collection of free opensource fonts
     - Img: https://www.gstatic.com/images/branding/product/ico/google_fonts_blue_lodp.ico
+    - Language:
+    - LongDescription: 
+    - Type: Fonts
+    - Area: Design
 
 - Fake JSONPlaceHolder
     - Link: https://jsonplaceholder.typicode.com/
