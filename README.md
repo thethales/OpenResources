@@ -30,6 +30,8 @@ As of now, a link resource is described as the first level on a bullet list and 
 >   - Area: _The area of the resource_
 >   - Why: _Why should one be interested in using it or for what would you use it for_
 
+Template:
+
 ```markdown
 - CoolOpenSourceResource
    - Link:
@@ -50,6 +52,7 @@ Part  of finding great resources on the web relies on smart search of terms and 
 
 ## Roadmap
 
+- Adding Categories in Markdown as Headers
 - Layout Improvement
 - Error Handling
 - Side panel with more info regarding the selected link/tool
