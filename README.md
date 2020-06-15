@@ -8,11 +8,11 @@ The WebApp parses the Markdown specific structure into a JSON object that is use
 
 ### Why use markdown and not JSON directly?
 
-In order to make it readable to everyone, machine or computer alike a simple bullet list makes more sense, and since basically everyone can compile a simple to do list on a daily basis, contributing to a text file is more familiar.
+In order to make it readable to everyone, human and computer alike, a simple bullet list makes more sense. And since basically everyone can compile a simple to do list on a daily basis, contributing to a text file is trivial.
 
 ### YAML ?
 
-Considered that too, but it requires somewhat a learning curve.
+Considered that too, but it requires somewhat of a learning curve.
 
 ## How to Contribute
 
