@@ -23,7 +23,7 @@ As of now, a link resource is described as the first level on a bullet list and 
 >   - Link: _Describes the link_
 >   - Description: _Short description of the resource_
 >   - Img: _A link to a favicon or image, for ilustration purposes_
->   - Language: _The main language of the resource e.g.: PT-BR, EN-US_
+>   - License: _The Item License_
 >   - LongDescription: _A long description of the item_
 >   - Tags: _Relevant Search Tags_
 >   - Type: _The type of the resource_
@@ -35,7 +35,7 @@ As of now, a link resource is described as the first level on a bullet list and 
    - Link:
    - Description: 
    - Img:
-   - Language: 
+   - License: 
    - LongDescription: 
    - Tags:
    - Type: 
