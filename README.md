@@ -23,12 +23,23 @@ As of now, a link resource is described as the first level on a bullet list and 
 >   - Link: _Describes the link_
 >   - Description: _Short description of the resource_
 >   - Img: _A link to a favicon or image, for ilustration purposes_
+>   - Language: _The main language of the resource e.g.: PT-BR, EN-US_
+>   - LongDescription: _A long description of the item_
+>   - Type: _The type of the resource_
+>   - Area: _The area of the resource_
+>   - Why: _Why should one be interested in using it or for what would you use it for_
 
 ```markdown
 - CoolOpenSourceResource
-   - Link: _Describes the link_
-   - Description: _Short description of the resource_
-   - Img: _A link to a favicon or image, for ilustration purposes_
+   - Link:
+   - Description: 
+   - Img:
+   - Language: 
+   - LongDescription: 
+   - Type: 
+   - Area: 
+   - Why: 
+ 
 ```
 
 ## Tips &  Glossary
