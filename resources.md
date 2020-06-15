@@ -45,15 +45,28 @@
     - Type: Mockup
     - Area: Design
 
-- Vue Starter Templates
-    - Link: https://bootstrap-vue.org/docs/reference/starter-templates
-    - Description: Template for quick Vue Boostrap development
-    - Img: https://bootstrap-vue.org/_nuxt/icons/icon_120.67aef2.png
-    - License:
-    - LongDescription: Get started quickly without the need for a build system, by using standard <script> and <link> tags to load the required JavaScript and CSS in your page.
-    - Type: Template
-    - Tags: Vue
-    - Area: Devlopment
+
+
+- Pixabay
+    - Link: https://pixabay.com/
+    - Description: A repository of free & roaylty free stock images
+    - Img: https://pixabay.com/favicon-32x32.png
+    - License: 
+    - LongDescription: 
+    - Tags: Stock, photography, images
+    - Type: Images
+    - Area: Design
+    - Why: 
+
+- Unsplash
+    - Link: https://unsplash.com/
+    - Description: A repository of free & roaylty free stock images
+    - Img: https://unsplash.com/mstile-144x144.png
+    - License: 
+    - LongDescription: 
+    - Tags: Stock, photography, images
+    - Type: Images
+    - Area: Design
     - Why: 
 
 - FavIcon Grabber
@@ -64,8 +77,19 @@
     - LongDescription: 
     - Type: API
     - Area: Design, Devlopment
+    - Why:
 
 
+- Vue Starter Templates
+    - Link: https://bootstrap-vue.org/docs/reference/starter-templates
+    - Description: Template for quick Vue Boostrap development
+    - Img: https://bootstrap-vue.org/_nuxt/icons/icon_120.67aef2.png
+    - License:
+    - LongDescription: Get started quickly without the need for a build system, by using standard <script> and <link> tags to load the required JavaScript and CSS in your page.
+    - Type: Template
+    - Tags: Vue
+    - Area: Devlopment
+    - Why: 
 
 
  
