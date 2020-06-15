@@ -48,6 +48,7 @@ Part  of finding great resources on the web relies on smart search of terms and 
 
 ## Roadmap
 
+- Layout Improvment
 - Error Handling
 - Side panel with more info regarding the selected link/tool
 - Automatic site icon fetch

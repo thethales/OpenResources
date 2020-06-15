@@ -7,6 +7,7 @@
     - LongDescription: 
     - Type: Fonts
     - Area: Design
+    - Why: 
 
 - Fake JSONPlaceHolder
     - Link: https://jsonplaceholder.typicode.com/
@@ -38,11 +39,21 @@
 - MockupWorld
     - Link: https://www.mockupworld.co/free/
     - Description: Search Tool for Mockups of various types and products
-    - Img: https://www5.usp.br/favicon.ico         
+    - Img: https://www.mockupworld.co/wp-content/uploads/fbrfg/favicon-32x32.png        
     - Language: EN-US
     - LongDescription: 
     - Type: Mockup
     - Area: Design
+
+- FavIcon Grabber
+    - Link: http://favicongrabber.com/
+    - Description: A tool for grabbing FavIcons from sites
+    - Img: http://favicongrabber.com/favicon.ico    
+    - Language: EN-US
+    - LongDescription: 
+    - Type: API
+    - Area: Design, Devlopment
+
 
 
  
