@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -35,12 +34,17 @@
         </div>
         <div class="wrapper">
             <div class="card" v-for="resource in filteredList">
-                <a v-bind:href="resource.link" target="_blank">
-                    <img v-bind:src="resource.img" ref="thumb" />
-                </a>
+                <div class="cardHeader">
+                    <a class="icon" v-bind:href="resource.link" target="_blank">
+                        <img v-bind:src="resource.img" ref="thumb" />
+                    </a>
 
-                <a v-bind:href="resource.link">{{ resource.title }}</a>
-                <small> {{ resource.desc }} </small>
+                   
+                </div>
+                <div class="cardFooter">
+                    <a v-bind:href="resource.link" class="card-title">{{ resource.title }}</a>
+                    <small> {{ resource.desc }} </small>
+                </div>
 
             </div>
         </div>

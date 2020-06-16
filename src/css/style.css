@@ -112,11 +112,38 @@ input {
 
 .card {
   box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
-  max-width: 250px;
+  max-width: 200px;
   margin: 8px;
+  margin-left: 4px;
+  height: 75px;
   margin-bottom: 0px;
   transition: .15s all ease-in-out;
   padding: 5px;
+  flex-direction: unset !important;
+}
+
+.cardHeader{
+  width: 50px !important;
+  height: 50px;
+  display:block !important;
+}
+
+.cardFooter{
+  width: 100%;
+  height: 20px;
+  display:block !important;
+  margin-bottom: 0px;
+}
+
+
+.icon{
+  width: 32px;
+  height: 32px;
+}
+
+.icon img{
+  width: 32px;
+  height: 32px;
 }
 
 .card:hover {
@@ -129,7 +156,7 @@ input {
   color: #03A9F4;
   font-size: 14px;
   display: inline-block;
-  flex-direction: column;
+  max-width: 150px;
   align-items: center;
   vertical-align: middle;
   font-family: 'Roboto', sans-serif;
@@ -141,12 +168,12 @@ input {
   padding: 2px;
   padding-left: 6px;
   display: block;
-  flex-direction: column;
+  
   align-items: center;
 }
 
-.card a img {
-  height: 20px;
+.card-title{
+  margin-bottom: 0px !important;
 }
 
 .hotpink {
