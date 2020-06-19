@@ -73,7 +73,7 @@ class Resource {
     },
     methods:{
         loadResources() {
-            const url = 'resources.md';
+            const url = 'resources_misc.md';
             this.$http.get(url)
             .then((result) => {
                 this.ResourceList = new ResourceCollection(result.data);
