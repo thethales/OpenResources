@@ -36,7 +36,7 @@
             <div class="card" v-for="resource in filteredList">
                 <div class="cardHeader">
                     <a class="icon" v-bind:href="resource.link" target="_blank">
-                        <img v-bind:src="resource.img" ref="thumb" />
+                        <img v-bind:src="resource.img" @error="imageUrlDefault" ref="thumb" />
                     </a>
 
                    
