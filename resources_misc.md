@@ -38,7 +38,28 @@
     - Type: 
     - Area: 
     - Why: 
+
+- svg2stl
+    - Link: http://svg2stl.com/
+    - Description: Online extrusion tool. Converts 2D SVG to 3D extruded model
+    - Img:
+    - License: 
+    - LongDescription: It may or may not work. Depends exclusively in the 2D model
+    - Tags:
+    - Type: 
+    - Area: 
+    - Why: 
  
+- stephaneginier/sculptgl
+    - Link: https://stephaneginier.com/sculptgl/
+    - Description: Online too for WebGL based 3D sculpting
+    - Img: https://stephaneginier.com/img/favicon.png
+    - License: 
+    - LongDescription: 
+    - Tags:
+    - Type: 
+    - Area: 
+    - Why: 
 
 # Design
 
