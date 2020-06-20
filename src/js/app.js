@@ -23,7 +23,7 @@ class Resource {
        let lines  =  content.split('\n'); 
        let el = {'item':[]};
        let k = 0;
-       console.log(content)
+       
        //MarkDown File Parser Prototype, not optimized ... at all
        for( var i = 0 ; i< lines.length; i ++){
            if(lines[i].indexOf(itemH1) == 0){
@@ -37,7 +37,6 @@ class Resource {
                     if(lines[j].indexOf(itemH2) == 0){
                         if(lines[j].indexOf(itemH2Link) == 0){
                             el.item[k].link = lines[j].replace(itemH2Link,'');
-                            //el.item[k].img  = grabFavicon(lines[j].replace(itemH2Link,''));
                         }
                         if(lines[j].indexOf(itemH2Img) == 0){
                             el.item[k].img = lines[j].replace(itemH2Img,'');
@@ -78,6 +77,9 @@ class Resource {
             .then((result) => {
                 this.ResourceList = new ResourceCollection(result.data);
              })            
+        },
+        imageUrlDefault(event) {
+          event.target.src = "src/img/default.png";
         },
         grabFavicon(urlIcon){
             /*
