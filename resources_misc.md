@@ -34,9 +34,9 @@
     - Img:
     - License: 
     - LongDescription: 
-    - Tags:
-    - Type: 
-    - Area: 
+    - Tags: Library, Repository
+    - Type: Collection
+    - Area: CAD
     - Why: 
 
 - svg2stl
@@ -45,20 +45,20 @@
     - Img:
     - License: 
     - LongDescription: It may or may not work. Depends exclusively in the 2D model
-    - Tags:
-    - Type: 
-    - Area: 
+    - Tags: SVG, Convert
+    - Type: Tool
+    - Area: CAD
     - Why: 
  
 - stephaneginier/sculptgl
     - Link: https://stephaneginier.com/sculptgl/
     - Description: Online too for WebGL based 3D sculpting
     - Img: https://stephaneginier.com/img/favicon.png
-    - License: 
+    - License: Free
     - LongDescription: 
-    - Tags:
-    - Type: 
-    - Area: 
+    - Tags: WebGL, 3D
+    - Type: Tool
+    - Area: 3D Modeling
     - Why: 
 
 # Design
@@ -120,12 +120,46 @@
     - Link: https://fonts.google.com/
     - Description: A collection of free opensource fonts
     - Img: https://www.gstatic.com/images/branding/product/ico/google_fonts_blue_lodp.ico
-    - License:
+    - License: Free
     - LongDescription: 
+    - Tags: Fonts, Collection
     - Type: Fonts
     - Area: Design
     - Why: 
 
+- Canva
+    - Link: https://www.canva.com/
+    - Description: A online WYIWYG tool for creating graphic documents.
+    - Img: https://static.canva.com/static/images/favicon.ico
+    - License: Free (Free to an extent, has paid plans)
+    - LongDescription: 
+    - Tags: 
+    - Type: Tool
+    - Area: Design
+    - Why:     
+
+- PhotoPea
+    - Link: https://www.photopea.com/
+    - Description: An online HTML5 free alternative to Photoshop
+    - Img: https://www.photopea.com/promo/thumb256.png
+    - License: Free (Has ads)
+    - LongDescription: 
+    - Tags: Photoshop
+    - Type: Tool
+    - Area: Design
+    - Why: 
+
+
+- patternico
+    - Link: https://patternico.com/
+    - Description: Seamless pattern maker 
+    - Img: https://patternico.com/favicon.ico
+    - License: Free 
+    - LongDescription: A tool to generate seamless texture for tiling
+    - Tags: Pattern, Tile, Texture
+    - Type: Tool
+    - Area: Design
+    - Why: 
 
 ## Prototyping
 
@@ -138,12 +172,22 @@
     - Type: Mockup
     - Area: Design
 
+- Screenshot Guru
+    - Link: https://screenshot.guru/
+    - Description: A tool to grab full page screenshots of any public site
+    - Img: https://screenshot.guru/favicon.ico
+    - License: Free 
+    - LongDescription: 
+    - Tags: Screenshot
+    - Type: Tool
+    - Area: Design
+    - Why: 
 
 # Miscellany
 
 - Artigos Científicos da USP
     - Link: https://www5.usp.br/tag/artigos-cientificos/
-    - Description: "Artigos Científicos da USP"
+    - Description: Artigos Científicos da USP
     - Img: https://www5.usp.br/favicon.ico         
     - License:
     - LongDescription: 
@@ -153,9 +197,20 @@
 - FavIcon Grabber
     - Link: http://favicongrabber.com/
     - Description: A tool for grabbing FavIcons from sites
-    - Img: http://favicongrabber.com/favicon.ico    
+    - Img:   
     - License:
     - LongDescription: 
-    - Type: API
+    - Type: API, Tool
     - Area: Design, Devlopment
     - Why:
+
+- Convert Online
+    - Link: https://www.online-convert.com/
+    - Description: An online tool to convert files
+    - Img: https://oc8.ocstatic.com/images/favicon/favicon.ico
+    - License: Free (Has ads, has paid plans)
+    - LongDescription: The tool provides various file type conversions. Any uploads are subject to their terms of service.
+    - Tags: Conversion
+    - Type: Tool
+    - Area: 
+    - Why: 

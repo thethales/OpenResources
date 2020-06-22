@@ -55,6 +55,7 @@ Part  of finding great resources on the web relies on smart search of terms and 
 - Adding Categories in Markdown as Headers
 - Layout Improvement
 - Error Handling
+- Site Screenshot
 - Side panel with more info regarding the selected link/tool
 - Automatic site icon fetch
 - Case Insensitivity
