@@ -3,60 +3,76 @@
 Vue.prototype.$http = axios
 
 class Resource {
-    constructor(title, link, author, img) {
-      this.title = title;
-      this.link = link;
-      this.author = author;
-      this.img = img;
-    }
+  constructor(title, link, author, img) {
+    this.title = title;
+    this.link = link;
+    this.author = author;
+    this.img = img;
+  }
 }
 
-  class ResourceCollection {
-    constructor(content) {     
+class ResourceCollection {
+  constructor(content) {     
+      //Not optimized list
+      const mdH1     = '# ';
+      const mdH2     = '## ';
+      const mdL1     = '-' + String.fromCharCode('32');
+      const mdL2     = '    - '; //String.fromCharCode('32') +  String.fromCharCode('32')  
 
-       const itemH1     = '-' + String.fromCharCode('32');
-       const itemH2     = '    - '; //String.fromCharCode('9') + '-' + String.fromCharCode('32');
-       const itemH2Link = itemH2 + 'Link:';
-       const itemH2Desc = itemH2 + 'Description:';
-       const itemH2Img  = itemH2 + 'Img:';
-       
-       let lines  =  content.split('\n'); 
-       let el = {'item':[]};
-       let k = 0;
-       
-       //MarkDown File Parser Prototype, not optimized ... at all
-       for( var i = 0 ; i< lines.length; i ++){
-           if(lines[i].indexOf(itemH1) == 0){
+      const mdL2Link      = mdL2 + 'Link:';
+      const mdL2Desc      = mdL2 + 'Description:';
+      const mdL2Img       = mdL2 + 'Img:';
+      const mdL2Tags      = mdL2 + 'Tags:';
+      const mdL2Licence   = mdL2 + 'License:';
+      const mdL2LongDesc  = mdL2 + 'LongDescription:'
+      
+      let lines  =  content.split('\n'); 
+      let el = {'item':[]};
+      let k = 0;
+      
+      //MarkDown File Parser Prototype, not optimized ... at all
+      for( var i = 0 ; i< lines.length; i ++){
+          if(lines[i].indexOf(mdH1) == 0){
+          
+          }
+          else{
+            if(lines[i].indexOf(mdL1) == 0){
                 let b       = {};
-                b.title     =  lines[i].replace(itemH1,'');
+                b.title     =  lines[i].replace(mdL1,'');
                 b.link      = '';
                 b.desc      = '';
                 el.item[k]  = b;
                 
                 for( var j = (i+1) ; j < lines.length; j ++){
-                    if(lines[j].indexOf(itemH2) == 0){
-                        if(lines[j].indexOf(itemH2Link) == 0){
-                            el.item[k].link = lines[j].replace(itemH2Link,'');
+                    if(lines[j].indexOf(mdL2) == 0){
+                        if(lines[j].indexOf(mdL2Link) == 0){
+                          el.item[k].link = lines[j].replace(mdL2Link,'');
                         }
-                        if(lines[j].indexOf(itemH2Img) == 0){
-                            el.item[k].img = lines[j].replace(itemH2Img,'');
+                        if(lines[j].indexOf(mdL2Img) == 0){
+                          el.item[k].img = lines[j].replace(mdL2Img,'');
                         }
-                        el.item[k].desc = lines[j].indexOf(itemH2Desc) == 0 ? lines[j].replace(itemH2Desc,'')  : el.item[k].desc;
+                        if(lines[j].indexOf(mdL2Tags) == 0){
+                          el.item[k].tags = lines[j].replace(mdL2Tags,'');
+                        }
+                        if(lines[j].indexOf(mdL2Tags) == 0){
+                          el.item[k].tags = lines[j].replace(mdL2Tags,'');
+                        }
+                        if(lines[j].indexOf(mdL2Desc) == 0){
+                          el.item[k].desc = lines[j].replace(mdL2Desc,'');
+                        }
                     }else{
-                        k++
+                        k++;
                         i = j;
                         break;
                     }
                 }
-           }
-       }
-       return el.item;
-    }
-
+            }
+          }
+      }
+      return el.item;
   }
+}
 
- 
-  
   const app = new Vue ({
     el: '#app',
     data: {
@@ -80,20 +96,7 @@ class Resource {
         },
         imageUrlDefault(event) {
           event.target.src = "src/img/default.png";
-        },
-        grabFavicon(urlIcon){
-            /*
-            this.$http.get("http://favicongrabber.com/api/grab/" + urlIcon.replace('https://','').replace('http://','').replace(' ',''))
-            .then((result) => {
-                console.log(result.data.icons[0].src)
-               //return result.data.icons[0].src;
-               let a = this.$refs.thumb;
-               a.attribute('src',result.data.icons[0].src)
-
-              
-             })   */
-        }
-        
+        }        
     },
     beforeMount(){
         this.loadResources();
