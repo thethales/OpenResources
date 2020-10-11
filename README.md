@@ -2,6 +2,11 @@
 
 A compiled list of known opensource resources, sources. boilerplates, and more.
 
+To use it simply go to the project [GitPage URL](https://thethales.github.io/OpenResources/)
+
+
+![Screenshot of the project homepage on its early stages][docs/screeshots/home.png]
+
 ## How does it work ?
 
 The WebApp parses the Markdown specific structure into a JSON object that is used by the Vue app script to create a static page capable of search
