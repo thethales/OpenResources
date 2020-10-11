@@ -2,10 +2,10 @@
 
 A compiled list of known opensource resources, sources. boilerplates, and more.
 
-To use it simply go to the project [GitPage URL](https://thethales.github.io/OpenResources/)
+To use it, simply go to the project [GitPage URL](https://thethales.github.io/OpenResources/)
 
 
-![Screenshot of the project homepage on its early stages][docs/screeshots/home.png]
+![Screenshot of the project homepage on its early stages](docs/screenshots/home.png)
 
 ## How does it work ?
 
