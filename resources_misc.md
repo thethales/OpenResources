@@ -84,7 +84,18 @@
     - Type: 
     - Area: Design
     - Why: 
- 
+
+- Adobe Color Wheel
+    - Link: https://color.adobe.com/pt/create/color-wheel
+    - Description: comprehensive Color Wheel from Adobe
+    - Img: https://documentcloud.adobe.com/favicon.ico
+    - License: Free
+    - LongDescription: Generate color palette 
+    - Tags: Color, Palette
+    - Type: 
+    - Area: Design
+    - Why: 
+
  - Pixabay
     - Link: https://pixabay.com/
     - Description: A repository of free & roaylty free stock images
@@ -127,6 +138,18 @@
     - Area: Design
     - Why: 
 
+- Vectr
+    - Link: https://vectr.com/
+    - Description: A online WYIWYG Vector Design Tool
+    - Img: https://vectr.com/appimages/favicon-32.png
+    - License: Free
+    - LongDescription: 
+    - Tags: Vector, Design, Tool
+    - Type: Tool
+    - Area: Design
+    - Why:     
+
+
 - Canva
     - Link: https://www.canva.com/
     - Description: A online WYIWYG tool for creating graphic documents.
@@ -149,7 +172,6 @@
     - Area: Design
     - Why: 
 
-
 - patternico
     - Link: https://patternico.com/
     - Description: Seamless pattern maker 
@@ -161,7 +183,53 @@
     - Area: Design
     - Why: 
 
-## Prototyping
+- HDRI Haven
+    - Link: https://hdrihaven.com/
+    - Description: 100% Free HDRIs Images
+    - Img: https://hdrihaven.com/core/img/HDRI Haven Logo.svg
+    - License: Free 
+    - LongDescription: A repository of 100% free HDRI Images
+    - Tags: Images, HDRI, Repository
+    - Type: Repository
+    - Area: Design
+    - Why:
+
+- Texture Haven
+    - Link: https://texturehaven.com/
+    - Description: 100% Free Textures Images
+    - Img: https://texturehaven.com/favicon.png
+    - License: Free 
+    - LongDescription: A repository of 100% Free Textures Images
+    - Tags: Images, Textures, Repository
+    - Type: Repository
+    - Area: Design
+    - Why:
+
+- 3D Model Haven
+    - Link: https://3dmodelhaven.com/
+    - Description: 100% Free 3D Models
+    - Img: https://3dmodelhaven.com/favicon.png
+    - License: Free 
+    - LongDescription: A repository of 100% free 3D Models
+    - Tags: Images, 3DModels, Repository
+    - Type: Repository
+    - Area: Design
+    - Why:
+
+# PDF
+
+- Adobe Compress PDF
+    - Link: https://www.adobe.com/acrobat/online/compress-pdf.html
+    - Description: Good free tol to compress PDF
+    - Img: https://documentcloud.adobe.com/favicon.ico
+    - License: Free 
+    - LongDescription: 
+    - Tags: PDF, Compress
+    - Type: Tool
+    - Area: 
+    - Why:
+
+# Prototyping
 
 - MockupWorld
     - Link: https://www.mockupworld.co/free/
@@ -182,6 +250,30 @@
     - Type: Tool
     - Area: Design
     - Why: 
+
+- FakesWhatsapp
+    - Link: https://www.fakewhats.com/generator
+    - Description: An online tool to generate Whatsapp Mockups
+    - Img: https://www.fakewhats.com/static/images/favicons/favicon.ico
+    - License: Free
+    - LongDescription: An online tool to generate Whatsapp Mockups, ideal for marketing mockup
+    - Tags: Mockup, Whastapp
+    - Type: Tool
+    - Area: Design, Marketing
+    - Why: 
+
+- Waveform Generator
+    - Link: https://convert.ing-now.com/mp3-audio-waveform-graphic-generator/
+    - Description: An online tool to generate Waveforms of audio as mp4 file
+    - Img:
+    - License: 
+    - LongDescription: 
+    - Tags: 
+    - Type: 
+    - Area: 
+    - Why: 
+
+
 
 # Miscellany
 
@@ -211,6 +303,28 @@
     - License: Free (Has ads, has paid plans)
     - LongDescription: The tool provides various file type conversions. Any uploads are subject to their terms of service.
     - Tags: Conversion
+    - Type: Tool
+    - Area: 
+    - Why: 
+
+- EmojiPedia
+    - Link: https://emojipedia.org/search
+    - Description: An online Emoji Database
+    - Img: https://emojipedia.org/static/img/favicons/apple-touch-icon-57x57.png
+    - License: Free 
+    - LongDescription: Online Emoji Database
+    - Tags: Repository, Emoji
+    - Type: Repository
+    - Area: 
+    - Why: 
+
+- ABNT Formatador
+    - Link: https://referenciabibliografica.net/a/pt-br/ref/abnt
+    - Description: A Online Tool formatter for References
+    - Img: 
+    - License: Free 
+    - LongDescription: A Online Tool formatter for bibliographic references
+    - Tags: ABNT, Vancouver, NLM, MLA 8
     - Type: Tool
     - Area: 
     - Why: 
